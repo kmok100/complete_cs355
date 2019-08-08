@@ -139,7 +139,7 @@ if (isset($_POST['register']))
   $msg = wordwrap($msg,70);
 
   // send email
-  mail("$email","Welcome to Weigh-in!",$msg);
+  //mail("$email","Welcome to Weigh-in!",$msg);
     //Echo below redirects to info.html. Uncomment out later
     echo '<script>window.location.href = "info.php";</script>';
     
